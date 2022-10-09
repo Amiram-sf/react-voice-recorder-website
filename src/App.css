@@ -1,0 +1,42 @@
+#root {
+  max-width: 1100px;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #root {
+    padding: 2rem;
+
+  }
+}
+
+.App {
+  position: relative;
+  width: 100%;
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 1rem;
+  height: 80vh;
+}
+
+.chat-control {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top: 1px solid rgb(100, 100, 100);
+}
+
+.chat-control-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem;
+}
+
+.voice-recorder {
+  width: 500px;
+  max-width: 500px;
+}
