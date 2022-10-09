@@ -11,7 +11,6 @@ function App() {
 
 
   const onDataReady = (value: IDataAvailable) => {
-    console.log(value);
 
     const reader = new FileReader()
 
