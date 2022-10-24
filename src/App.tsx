@@ -30,7 +30,7 @@ function App() {
   const onPermissionDenied = () => {
     setIsRecordMode(false)
     setAudioSrc("")
-    alert("Permission Denied")
+    alert("Permission Denied!!!")
   }
 
   return (
